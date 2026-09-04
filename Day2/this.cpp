@@ -27,3 +27,18 @@ int main( void )
     c1.printRecord( ); // c1.printRecord(&c1); 
     return 0;
 }
+
+
+
+//this in cpp  =  Classname * const this
+// this is a keyword
+
+//it is a constant pointer which having address of class
+
+//this pointer created when member function
+//(when we call the member function its first argument is by default address of class &class) 
+//of specific class is called
+//note-> dont try to push the address as parameter
+//and destroy when it return the value to its own
+
+//global function,static function,friend function cant have this pointer;
