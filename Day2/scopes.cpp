@@ -9,3 +9,13 @@ class Sample{
 namespace na{
 int num4 = 40;//namespace scope 
 };
+
+int main(){
+    void print(int a, int b); // a and b are prototype scope
+    int num5 = 50;// function scope
+
+    {
+        int num6 = 60;//block scope
+    }
+    return 0;
+}
