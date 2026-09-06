@@ -6,6 +6,9 @@ struct Employee
   int age;
   double salary;
 };
+
+//There is no difference in struct and class except that 
+// the struct has default value public and class has default values private
 void printRecord(struct Employee *ptr);
 void acceptRecord(Employee *ptr);
 
