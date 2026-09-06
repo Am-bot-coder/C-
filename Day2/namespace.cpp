@@ -3,7 +3,7 @@
 using namespace std; 
 
 //namespace is juct collection of similar objects
-//basicallu using for(Grouping)
+//basically using for(Grouping)
 
 namespace na{
 int num1 = 10;
