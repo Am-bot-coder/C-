@@ -16,6 +16,8 @@ int main()
     for(int i=0;i<4;i++){
         cout<<"Values-->"<<ptr[i]<<endl;
         }
+    free(ptr);
+    ptr=NULL;
     return 0;
 }
 //calloc by default set velue = 0;
