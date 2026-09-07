@@ -19,3 +19,14 @@ int main()
     
     return 0;
 }
+/*
+Output
+100
+200
+13500752
+0
+*/
+
+//creating array of the integer by using the malloc
+//just remember that we need to free pointer for stop data leakage
+//make pointer point toward null to stop dangling pointer 
