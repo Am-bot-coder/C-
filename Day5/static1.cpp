@@ -11,5 +11,9 @@ int main(){
     fun();
     fun();
     fun();
+    
     return 0;
 }
+
+//static only get the memory once
+//but it can only accesible in their scope
