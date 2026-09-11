@@ -87,11 +87,16 @@ int main()
             p = new Book;
             p->acceptRecord();//accept record of base class called not the child class
             p->printRecord();//print record of base class called not the child class
+            delete p;
+            p = NULL;
+            
             break;
         case 2:
             p = new Tape;
             p->acceptRecord();//accept record of base class called not the child class
             p->printRecord();//print record of base class called not the child class
+            delete p;
+            p = NULL;
             break;
         
         default:
@@ -99,4 +104,5 @@ int main()
             break;
         }
     }
+    return 0;
 }
