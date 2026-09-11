@@ -5,12 +5,25 @@ class Product
 private:
     string title;
     double price;
+/*
+In that program  accept record is virual
+so all accept record are become virtual 
+over riding can happen .
 
+Object class accept record used;
+
+
+
+but in print record no virual keyword is used
+so cant use that.
+
+
+*/
 public:
     Product(void) : title(""), price(0.0)
     {
     }
-    void acceptRecord(void)
+    virtual void acceptRecord(void)
     {
         cout << "Title : ";
         cin >> title;
