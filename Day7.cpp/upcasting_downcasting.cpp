@@ -45,6 +45,14 @@ class Derived2 : public Derived{
 };
 
 int main()
+{
+    Base *ptrBase = new Base(10,20); // NOT OK 
+    Derived *ptrDerived = (Derived*)ptrBase; //downcasting  but since the 3rd variable not initialize
+    ptrDerived->displayRecord( ); 
+    return 0;
+}
+
+int main3()
 {   
     //Upcasting and downcasting can done in multi level hierarchy
     Base *ptr = new Derived(100,200,300);
