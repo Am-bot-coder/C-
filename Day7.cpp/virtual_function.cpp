@@ -85,13 +85,13 @@ int main()
         {
         case 1:
             p = new Book;
-            p->acceptRecord();
-            p->printRecord();
+            p->acceptRecord();//accept record of base class called not the child class
+            p->printRecord();//print record of base class called not the child class
             break;
         case 2:
             p = new Tape;
-            p->acceptRecord();
-            p->printRecord();
+            p->acceptRecord();//accept record of base class called not the child class
+            p->printRecord();//print record of base class called not the child class
             break;
         
         default:
