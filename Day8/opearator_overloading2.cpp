@@ -1,5 +1,12 @@
 #include <iostream>
 using namespace std;
+
+//Outside the class operator overloading is possible 
+//but need a friend function
+
+
+//so overload in inside class directly
+
 class Point
 {
 private:
