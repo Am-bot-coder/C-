@@ -1,7 +1,7 @@
 #include<iostream> 
 using namespace std; 
 
-//overload the <<(insertion operator) Twice
+//overload the <<(insertion operator) Two time
 class Complex 
 {
     private: 
