@@ -1,4 +1,11 @@
 #include<iostream> 
+
+//if we dont make virtual constructor during upcasting only base class ddestructor called
+//Base Constructor -> Derived Constructor -> Base Destructor
+
+//but if we use virtual destructor
+//Base Constructor -> Derived Constructor ->Derived Destructor--> Base Destructor
+
 using namespace std; 
 class Base 
 {
@@ -10,7 +17,7 @@ class Base
         cout<<"Base class ctor called"<<endl; 
         bptr = new int[3]; 
     }
-    ~Base( void )
+    virtual ~Base( void )
     {
         cout<<"Base class dtor called"<<endl; 
         delete[] bptr; 
