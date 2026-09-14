@@ -9,9 +9,14 @@ class ABC{
     public:
     ABC():sec_number(10),digilock(20){}
     friend int main();
+    friend void print();
 
 };
 
+void print(){
+    ABC a;
+    cout<<a.sec_number<<endl;
+}
 
 int main()
 {
