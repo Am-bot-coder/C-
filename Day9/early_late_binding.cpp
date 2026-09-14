@@ -1,6 +1,12 @@
 #include <iostream>
-
 using namespace std;
+
+/*
+Rember the algorithm -->
+1. if function doesnt exist no early-binding no late-binding. comiler error
+2. if the function is virtual late-binding (pointer of class not static object)
+3.else early-binding.
+*/
 
 class Base
 {
