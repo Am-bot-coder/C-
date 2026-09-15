@@ -2,6 +2,29 @@
 #include<vector>
 using namespace std;
 
+
+//vector<int>:iterator;
+
+//.push_back(value): Add the value in the last;
+
+//.pop_back(value): Remove the last element from the vector
+//(Note : pop_back doesnt return any thing)
+
+//.size-->(It return the size)
+
+//.empty()--> check wheather it is empty or not
+
+//access using A1[index] one more method is A1.at(index);
+
+//.front() --> gave first element
+
+//.back()--> gave back element
+
+//.clear() --> remove all element
+
+//.insert(position,value) --> addvalue to specific position
+
+
 int main()
 {
     vector<int> A1;
